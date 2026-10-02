@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Amazing Boyfriend 💕</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💕</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Navigation Dots -->
+    <nav class="nav-dots">
+        <a href="#hero" class="nav-dot active" title="Welcome"></a>
+        <a href="#memories" class="nav-dot" title="Memories"></a>
+        <a href="#message-video" class="nav-dot" title="My Message"></a>
+        <a href="#videos" class="nav-dot" title="Our Videos"></a>
+        <a href="#compliments" class="nav-dot" title="Compliments"></a>
+        <a href="#love-notes" class="nav-dot" title="Love Notes"></a>
+        <a href="#quiz" class="nav-dot" title="Quiz"></a>
+        <a href="#love-button" class="nav-dot" title="Love Button"></a>
+    </nav>
+
+    <!-- Photo Lightbox Overlay -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="Full size photo">
+    </div>
+
+    <!-- ==================== SECTION 1: HERO ==================== -->
+    <section id="hero">
+        <div class="hero-content">
+            <!-- Boyfriend cutout photo -->
+            <div class="bf-cutout">
+                <img src="photos/boyfriend-cutout.png" alt="My boyfriend">
+            </div>
+            <h1>For My Amazing Boyfriend 💕</h1>
+            <p class="subtitle">I made this little corner of the internet just for you...</p>
+        </div>
+        <a href="#memories" class="scroll-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m6 9 6 6 6-6"/>
+            </svg>
+        </a>
+    </section>
+
+    <!-- ==================== SECTION 2: PHOTO GALLERY ==================== -->
+    <section id="memories">
+        <div class="container">
+            <h2 class="section-title">📸 Our Memories Together</h2>
+            <div class="photo-grid">
+                <div class="photo-card">
+                    <img src="photos/photo1.jpg" alt="" loading="lazy">
+                </div>
+                <div class="photo-card">
+                    <img src="photos/photo2.jpg" alt="" loading="lazy">
+                </div>
+                <div class="photo-card">
+                    <img src="photos/photo3.jpg" alt="" loading="lazy">
+                </div>
+                <div class="photo-card">
+                    <img src="photos/photo4.jpg" alt="" loading="lazy">
+                </div>
+                <div class="photo-card">
+                    <img src="photos/photo5.jpg" alt="" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 3: MESSAGE VIDEO ==================== -->
+    <section id="message-video">
+        <div class="container">
+            <h2 class="section-title">💌 A Special Message For You</h2>
+            <p class="section-subtitle">I made this video just for you... press play 🥺💕</p>
+            <div class="featured-video-wrapper">
+                <div class="featured-video-glow"></div>
+                <div class="featured-video-card">
+                    <!-- OPTION 1: YouTube Embed (RECOMMENDED for large videos) -->
+                    <!-- Upload your video to YouTube as "Unlisted", then replace YOUR_VIDEO_ID below -->
+                    <!-- Example: if your YouTube link is https://youtu.be/abc123, the ID is abc123 -->
+                    <div class="youtube-embed">
+                        <iframe 
+                            src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    
+                    <!-- OPTION 2: Direct video file (uncomment below and remove YouTube embed above if video is small) -->
+                    <!-- <video src="videos/message-video.mp4" controls poster="videos/message-thumbnail.jpg" preload="metadata"></video> -->
+                    
+                    <div class="featured-video-label">
+                        <span class="pulse-dot"></span>
+                        From my heart to yours 💕
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 4: VIDEO GALLERY ==================== -->
+    <section id="videos">
+        <div class="container">
+            <h2 class="section-title">🎬 Our Little Moments</h2>
+            <p class="section-subtitle">Some of my favorite clips of us ✨</p>
+            <div class="video-grid">
+                <div class="video-card">
+                    <video src="videos/video1.mp4" controls poster="videos/thumb1.jpg" preload="metadata"></video>
+                </div>
+                <div class="video-card">
+                    <video src="videos/video2.mp4" controls poster="videos/thumb2.jpg" preload="metadata"></video>
+                </div>
+                <div class="video-card">
+                    <video src="videos/video3.mp4" controls poster="videos/thumb3.jpg" preload="metadata"></video>
+                </div>
+                <div class="video-card">
+                    <video src="videos/video4.mp4" controls poster="videos/thumb4.jpg" preload="metadata"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 5: COMPLIMENTS ==================== -->
+    <section id="compliments">
+        <div class="container">
+            <h2 class="section-title">✨ Things I Adore About You</h2>
+            <p class="section-subtitle">Just a few reasons why you're the best 💕</p>
+            
+            <div class="compliments-container">
+                <div class="compliment-bubble left">
+                    <span class="compliment-emoji">😍</span>
+                    <p>You have the most amazing smile in the whole world</p>
+                </div>
+                <div class="compliment-bubble right">
+                    <span class="compliment-emoji">🦋</span>
+                    <p>You still give me butterflies every single time</p>
+                </div>
+                <div class="compliment-bubble left">
+                    <span class="compliment-emoji">🔥</span>
+                    <p>You look so handsome without even trying</p>
+                </div>
+                <div class="compliment-bubble right">
+                    <span class="compliment-emoji">🫶</span>
+                    <p>Your hugs are my favorite place in the world</p>
+                </div>
+                <div class="compliment-bubble left">
+                    <span class="compliment-emoji">💪</span>
+                    <p>You're the strongest and kindest person I know</p>
+                </div>
+                <div class="compliment-bubble right">
+                    <span class="compliment-emoji">🌟</span>
+                    <p>Everything is better when you're around</p>
+                </div>
+                <div class="compliment-bubble left">
+                    <span class="compliment-emoji">😊</span>
+                    <p>Your laugh is the most adorable sound ever</p>
+                </div>
+                <div class="compliment-bubble right">
+                    <span class="compliment-emoji">👑</span>
+                    <p>You're not just my boyfriend, you're my king 💕</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 6: LOVE NOTES ==================== -->
+    <section id="love-notes">
+        <div class="container">
+            <h2 class="section-title">💌 Little Love Notes</h2>
+            <div class="notes-grid">
+                <div class="note-card">
+                    <span class="heart-icon">❤️</span>
+                    <p>Every moment with you feels like a beautiful dream I never want to wake up from. 💫</p>
+                </div>
+                <div class="note-card">
+                    <span class="heart-icon">❤️</span>
+                    <p>Your smile is my favorite thing in the entire world. Never stop smiling. 😊</p>
+                </div>
+                <div class="note-card">
+                    <span class="heart-icon">❤️</span>
+                    <p>Thank you for being my best friend, my partner, and my everything. 🌟</p>
+                </div>
+                <div class="note-card">
+                    <span class="heart-icon">❤️</span>
+                    <p>I fall in love with you a little more every single day. How is that even possible? 💕</p>
+                </div>
+                <div class="note-card">
+                    <span class="heart-icon">❤️</span>
+                    <p>You make the ordinary moments feel extraordinary just by being there. ✨</p>
+                </div>
+                <div class="note-card">
+                    <span class="heart-icon">❤️</span>
+                    <p>I am so grateful the universe brought us together. You are my person. 🌍💕</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 7: QUIZ ==================== -->
+    <section id="quiz">
+        <div class="container">
+            <h2 class="section-title">🤔 How Well Do You Know Us?</h2>
+            <p class="section-subtitle">Let's see if you remember these special moments!</p>
+            
+            <div id="quiz-container" class="quiz-container">
+            </div>
+            
+            <div id="quiz-results" class="quiz-results" style="display: none;">
+                <h3 class="section-title" style="font-size: 2.5rem;">Your Score</h3>
+                <p id="score-display" style="font-size: 3rem; font-weight: 700; margin: 10px 0;"></p>
+                <p id="quiz-message" style="font-size: 1.5rem;"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 8: LOVE BUTTON ==================== -->
+    <section id="love-button">
+        <canvas id="confetti-canvas"></canvas>
+        <div class="container" style="text-align: center; position: relative; z-index: 2;">
+            <h2 class="section-title" style="color: white;">So... Did You Like It? 🥺</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Click the button below to let me know!</p>
+            
+            <button id="love-btn" class="love-btn">
+                I Love It! 💕
+            </button>
+            
+            <div id="love-success" class="love-success" style="display: none;">
+                <p>Yay! 🎉 I knew you would! I love you so much! 💕💕💕</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with 💕 just for you &copy; <span id="year"></span></p>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <!-- Quiz Data -->
+    <script>
+    const quizQuestions = [
+      {
+        question: 'What was the first thing I noticed about you?',
+        options: ['Your smile', 'Your eyes', 'Your laugh', 'Your kindness'],
+        correct: 0
+      },
+      {
+        question: 'What is our song?',
+        options: ['Perfect - Ed Sheeran', 'All of Me - John Legend', 'A Thousand Years - Christina Perri', 'Thinking Out Loud - Ed Sheeran'],
+        correct: 0
+      },
+      {
+        question: 'What do I love most about you?',
+        options: ['Everything!', 'Your humor', 'Your caring nature', 'Trick question - ALL of the above! 💕'],
+        correct: 3
+      },
+      {
+        question: 'What is my favorite thing we do together?',
+        options: ['Watch movies', 'Go on walks', 'Cook together', 'Just being with you'],
+        correct: 3
+      },
+      {
+        question: 'How much do I love you?',
+        options: ['A lot', 'More than pizza 🍕', 'To the moon and back 🌙', 'There is no measurement big enough! 💕'],
+        correct: 3
+      }
+    ];
+    </script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    
+    <!-- Set current year -->
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
